@@ -11,4 +11,9 @@ public class HomeController {
         return "welcome";
     }
 
+    @GetMapping("/home")
+    public String demo (){
+        return "welcome to home path";
+    }
+
 }
